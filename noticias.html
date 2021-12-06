@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="CSS.css">
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <title>Curso DS-Etec</title>
+    <title>Curso DS-Etec_Noticias</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 
 <body class="original">
 
     <nav class="navbar navbar-expand-lg navbar-dark topo">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="index.html">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,6 +25,10 @@
             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
 
                 <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="cadastro.html"><i class="fas fa-address-card"></i> Cadastre-se</a>
@@ -37,10 +42,6 @@
                         <a class="nav-link" href="noticias.html"><i class="fas fa-newspaper"></i> Noticias</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
-                    </li>
-
 
                     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
@@ -51,7 +52,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Login</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
 
                                     <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Fundo</a>
                                         <ul class="dropdown-menu">
@@ -107,19 +108,19 @@
 
 
     <div class="container-fluid mt-5">
-        <h1 class="text-center">Ensino Médio com Habilitação Técnica em
-            <p class="DS">Desenvolvimento de Sistemas</p>
+        <h1 class="text-center borda">Ensino Médio com Habilitação Técnica em
+            <p class="DS borda">Desenvolvimento de Sistemas</p>
         </h1>
     </div>
 
 
 
-    <h1 class="text-center mt-5 DS2">Noticias</h1>
+    <h1 class="text-center mt-5 DS2 borda">Notícias</h1>
 
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
             <div class="col">
-                <div class="card">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
                     <img src="img/img1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Como usar o Visual Studio</h5>
@@ -148,7 +149,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card shadow-lg p-3 mb-5 bg-white rounded">
                     <img src="img/img2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">O que aprende?</h5>
@@ -256,25 +257,25 @@
 
                 <div class="col-12 col-sm-4 col-md-4 mt-3">
 
-                    <h4 class="text-center text-white">Mapa do site</h4>
+                    <h4 class="text-center text-branco borda_p">Mapa do site</h4>
 
                     <br>
 
                     <div class="text-center">
                         <li class="nav-link">
-                            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                            <a class="text-l link-light" href="index.html"><i class="fas fa-home"></i> Home</a>
                         </li>
 
                         <li class="nav-link">
-                            <a id="aviso" data-toggle="modal" data-target="#exampleModal" href="noticias.html"><i class="fas fa-newspaper"></i> Noticias</a>
+                            <a class="text-l link-light" data-toggle="modal" data-target="#exampleModal" href="noticias.html"><i class="fas fa-newspaper"></i> Noticias</a>
                         </li>
 
                         <li class="nav-link">
-                            <a data-toggle="modal" data-target="#exampleModal" href="contato.html"><i class="fas fa-mail-bulk"></i> Contato</a>
+                            <a class="text-l link-light" data-toggle="modal" data-target="#exampleModal" href="contato.html"><i class="fas fa-mail-bulk"></i> Contato</a>
                         </li>
 
                         <li class="nav-link">
-                            <a data-toggle="modal" data-target="#exampleModal" href="cadastro.html"><i class="fas fa-address-card"></i> Cadastre-se</a>
+                            <a class="text-l link-light" data-toggle="modal" data-target="#exampleModal" href="cadastro.html"><i class="fas fa-address-card"></i> Cadastre-se</a>
                         </li>
 
                     </div>
@@ -288,24 +289,23 @@
 
                 <div class="col-12 col-sm-4 col-md-4 mt-3">
 
-                    <h4 class="text-center text-white">Redes Sociais</h4>
+                    <h4 class="text-center text-branco borda_p">Redes Sociais</h4>
 
                     <br>
 
                     <div class="text-center">
 
                         <li class="nav-link">
-                            <a href="https://www.facebook.com/groups/545455415484921/"><i class="fab fa-facebook fa-3x "></i></a><span> Fecebook: Etec de Lins</span>
+                            <a href="https://www.facebook.com/groups/545455415484921/" target="_ablank"><i class="fab fa-facebook fa-3x "></i></a><span class="borda_pr text-l"> Fecebook: Etec de Lins</span>
                         </li>
 
                         <li class="nav-link">
-                            <a id="aviso" data-toggle="modal" data-target="#exampleModal" href="doce"><i class="fab fa-instagram fa-3x"></i></a><span> Instagram: Etec de Lins</span>
+                            <a href="https://www.instagram.com/explore/locations/222683218/" target="_ablank"><i class="fab fa-instagram fa-3x"></i></a><span class="borda_pr text-l"> Instagram: Etec de Lins - Centro Paula Sousa</span>
                         </li>
 
                         <li class="nav-link">
-                            <a id="aviso" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-phone-square-alt fa-3x"></i></a><span> Telefone: (14) 3523-1217 </span>
+                            <a id="aviso" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-phone-square-alt fa-3x"></i></a><span class="borda_pr text-l"> Telefone: (14) 3523-1217 </span>
                         </li>
-
 
                     </div>
 

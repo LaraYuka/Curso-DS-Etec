@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Laila:wght@600&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Copse&family=Hanalei+Fill&family=Laila:wght@600&family=Permanent+Marker&display=swap');
 body {
-    background-color: rgb(255, 213, 218);
+    background-color: rgb(255, 206, 223);
 }
 
 .dropdown-submenu {
@@ -29,16 +29,16 @@ body {
 }
 
 .original {
-    background: pink;
+    background-color: rgb(255, 206, 223);
 }
 
 .claro {
-    background: #f5f5f5;
+    background: #fffefe;
     height: 100vh;
 }
 
 .escuro {
-    background: #303030;
+    background: #2c2c2c;
     height: 100vh;
 }
 
@@ -117,7 +117,7 @@ a {
 }
 
 .titulo {
-    color: royalblue;
+    color: rgb(0, 225, 255);
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -145,6 +145,48 @@ span {
     color: white;
 }
 
+.text-cadastro {
+    font-family: 'Copse', serif;
+    font-size: 1.2rem;
+}
+
+.borda {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.borda_branca {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.borda_p {
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.borda_pr {
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.text-l {
+    font-size: 1.2rem;
+}
+
+.text-branco {
+    color: rgb(21, 255, 204);
+    font-size: 2.3rem;
+}
+
 .topo {
     background-color: rgb(255, 53, 53);
+}
+
+.rodape {
+    background-color: rgb(255, 72, 72);
 }
